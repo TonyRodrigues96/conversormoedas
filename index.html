@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <title>Conversor de moedas</title>
+
+</head>
+
+<img id="logodasmaos" src="./Logo das mãos.png" alt="imagem de uma mão entregando dinheiro à outra">
+
+<body>
+
+    <div id="container">
+        <label aria-sort="ascending">Converter <b>de</b>
+            <select id="select1">
+                <option initial selected value="realS1">R$ Real</option>
+                <option value="dolarS1">US$ Dólar</opt>
+                <option value="bitcoinS1">₿ Bitcoin</option>
+                <option value="euroS1">€ Euro</option>
+            </select>
+        </label>
+
+        <label aria-sort="ascending"><b>para</b>
+            <select id="select2">
+                <option initial selected value="dolarS2">US$ Dólar</option>
+                <option value="bitcoinS2">₿ Bitcoin</option>
+                <option value="euroS2">€ Euro</option>
+            </select>
+        </label>
+    
+        <label>Valor
+            <input id="ValorAserConvertido" type="text">
+        </label>
+        
+        <button id="botaoprincipal">Converter</button>
+
+        <section>
+            <div id="box1">
+                <img class="imagens" id="bandeira1" src="./Brasil.png" alt="bandeira do Brasil">
+                <p id="moeda1">--</p>
+                <p id="valor1">0</p>
+            </div>
+            
+            <div id="boxseta">
+                <img src="./Seta.png" alt="desenho de uma seta">
+            </div>
+           
+            <div id="box2">
+                <img class="imagens" id="bandeira2" src="./eua.png" alt="bandeira dos Estados Unidos">
+                <p id="moeda2">--</p>
+                <p id="valor2">0</p>
+            </div>
+    
+        </section>
+
+    </div>    
+
+  
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>

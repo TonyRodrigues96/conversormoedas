@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;}
+
+body {
+    background: #8A51FC;
+    display: flex;
+    flex-direction: column;}
+
+#logodasmaos {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px auto;}
+
+#container {
+    background: #F4F4F4;
+    width: 375px;
+    border-radius: 20px;
+    border: solid 1px black;
+    margin: 0 auto 50px;
+    padding: 44px 24px 23px;}
+label {
+    background: #ffffff;
+    color: #777777;
+    border: none;
+    border-radius: 4px;
+}
+
+select {
+    background: #ffffff;
+    color: #777777;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;}
+
+input {
+    background: #ffffff;
+    color: #777777;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 700}
+
+button {
+    background-color: #772fd3;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #ffffff;
+    cursor: pointer;}
+
+button:hover {
+    opacity: 0.8;}
+
+button:active {
+    background-color:green;}
+
+section {
+    border: 1px solid #772fd3;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px;
+    padding: 12px;}
+
+#box1 {
+    margin: 15px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;}
+
+#boxseta {
+    gap: 5px;}
+
+#box2 {  
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;}
+
+#real #dolar {
+    color: #777777;
+    font-size: 14px;}
+
+#valorreal #valordolar {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px}
+
+.imagens {
+    width: 50px;
+    height: 50px;}
+
+
+
